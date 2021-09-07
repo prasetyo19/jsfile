@@ -4,7 +4,7 @@ var map = L.map('map').setView([0.5113353576556057, 101.44718066054918],17); //l
 /* Tile Basemap */
 var basemap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   //attribution akan muncul di pojok kanan bawah
-  attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://unsorry.net" target="_blank">unsorry@2020</a>'
+  attribution: '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
 basemap.addTo(map);
 
